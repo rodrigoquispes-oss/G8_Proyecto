@@ -27,8 +27,8 @@ Hemos completado satisfactoriamente los requisitos del prototipo mínimo recomen
    ```bash
    pip install fastapi uvicorn psycopg2-binary pydantic
 
-2. Iniciar el servidor:
+2. **Iniciar el servidor:**
    python -m uvicorn main:app --reload --port 8001
 
-3. Explorar la API
+3. **Explorar la API:**
    Visita http://127.0.0.1:8001/docs para interactuar con los endpoints documentados.

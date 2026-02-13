@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from typing import List
-# Revisa que diga KPISummary (K, P, I en mayúsculas)
+
 from app.schemas.kpi_schema import KPISummary, SLAChartData
 
 app = FastAPI(title="Modulo G8: Reportes y KPIs")

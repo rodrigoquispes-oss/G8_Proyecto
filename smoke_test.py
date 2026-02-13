@@ -2,7 +2,6 @@ import psycopg2
 
 def run_smoke_test():
     try:
-        # Credenciales según tu Vista Física [cite: 212, 214]
         conn = psycopg2.connect(
             host="localhost",
             database="postgres", 
